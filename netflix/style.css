@@ -1,0 +1,50 @@
+body{
+    background-image: url("./assets/br.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #434343ba;
+}
+.row1 svg{
+    fill: #E50914;
+    width: 180px;
+    padding: 22px 0 0 42px;
+
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 20vw;
+    height: 60vh;
+    padding: 40px 30px 0 30px;
+    /*   top right bot left   */
+    background-color: #323232a8;
+    border-radius: 10px;
+}
+.container h1{
+    color: white;
+}
+input{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;
+}
+.content button{
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #E50914;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0;
+}
